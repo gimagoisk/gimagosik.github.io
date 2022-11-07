@@ -1,9 +1,14 @@
 <!DOCTYPE html 
 <head>
+  <style>
+
+
+</style>
 <title>Diary</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="screen,projection" href="screen.css" />
 </head>
+
 <body>
 <div id="container">
   <div id="header">
@@ -15,7 +20,39 @@
         <dl>
           <dt>我最重要的书</dt>
           <dd>
-            <p class="img"><img src="images/sample_pic.jpg" width="250px" height="171px" alt="Sample Picture Here" /></p>
+
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/2.jpg" style="width:100%">
+                <div class="text">一</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/1.jpg" style="width:100%">
+                <div class="text">二</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/3.jpg" style="width:100%">
+                <div class="text">三</div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+
+            <script src=script.js ></script>
+
             <p> 本杰明·富兰克林过去每天都会问自己“今天我能做什么好？”。 然后他把这些事情记在日记里。</p>
               <p>那天结束时，他会回顾他的每一个目标，记下他可以如何改进他做得不好的事情。
             </p>
