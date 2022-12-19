@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    <div id="container">
+      {{> header }}
+      <div id="wrapper">
+        <div id="content-wrapper">
+          <main id="content" style="padding: 20px">
+            <input
+              type="text"
+              placeholder="Search"
+              class="search-input"
+              style="margin-bottom: 12px"
+            />
+            <dl class="notes-container"></dl>
+            <div class="pagination-container">
+              <div class="pagination-item current">1</div>
+              <div class="pagination-item">2</div>
+            </div>
+
+            {{> summary }}
+          </main>
+        </div>
+        {{> sidebar }}
+      </div>
+      {{> footer }}
+    </div>
+  </body>
+</html>

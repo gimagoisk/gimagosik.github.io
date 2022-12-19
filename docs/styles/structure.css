@@ -1,0 +1,143 @@
+#container {
+  width: 750px;
+  text-align: left;
+  margin: 20px auto;
+  line-height: 1.6em;
+}
+
+#header {
+  padding: 0;
+  color: #cfcfcf;
+  margin: 0 0 20px;
+  text-align: center;
+  background-color: #222222;
+  border: 1px solid #000000;
+}
+
+#wrapper {
+  float: left;
+  width: 100%;
+  color: #333333;
+  margin-bottom: 20px;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #000000;
+  background: #efefef url("/images/bg.png") top left repeat-y;
+}
+
+#content-wrapper {
+  width: 60%;
+  float: left;
+}
+
+#content {
+  width: 98%;
+  float: left;
+}
+
+#footer {
+  clear: both;
+  color: #999999;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 0 40px;
+  background-color: #222222;
+  border: 1px solid #000000;
+}
+
+/* Header */
+
+#header h1 {
+  margin: 0;
+  padding: 30px 0 15px;
+  line-height: 1em;
+}
+
+#header h2 {
+  margin: 0;
+  padding: 0 0 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #888888;
+  line-height: 1em;
+}
+
+/* Content */
+
+#content dl {
+  padding: 0;
+  margin: 20px;
+}
+
+#content dt {
+  font-size: 24px;
+  color: #99335c;
+  line-height: 1.6em;
+}
+
+#content dd {
+  padding: 0;
+  margin: 10px 0;
+}
+
+#content dd.summary {
+  color: #777777;
+  font-size: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+#content dd.summary a:link,
+#content dd.summary a:visited {
+  border-bottom-width: 0;
+}
+
+#content dd p.img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+#content dd p.img img {
+  padding: 8px;
+  border: 1px solid #bbbbbb;
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+
+#footer p {
+  margin: 0;
+  padding: 0 10px 10px;
+}
+
+#footer a:link,
+#footer a:visited {
+  color: #999999;
+  border-bottom-color: #999999;
+}
+
+#footer a:hover,
+#footer a:active {
+  color: #bbbbbb;
+  border-bottom-color: #bbbbbb;
+}
+
+#content .notes-container {
+  margin: 0;
+}
+
+.notes-container + .pagination-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+}
+.notes-container + .pagination-container > .pagination-item {
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #1f62b0;
+}
+.notes-container + .pagination-container > .pagination-item.current {
+  color: black;
+  cursor: auto;
+}

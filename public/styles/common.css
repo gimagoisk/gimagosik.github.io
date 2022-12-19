@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  text-align: center;
+  background-color: #c0c0c0;
+  font: normal 12px "Trebuchet MS", "Lucida Grande", verdana, georgia,
+    sans-serif;
+  font-family: Verdana, sans-serif;
+}
+
+/* Links */
+
+a:link {
+  text-decoration: none;
+  color: #1f62b0;
+  border-bottom: 1px dotted #1f62b0;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #6b99b8;
+  border-bottom: 1px dotted #6b99b8;
+}
+
+a:hover,
+a:active {
+  color: #99335c;
+  border-bottom-color: #99335c;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Html Elements */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 5px 0 10px;
+  padding: 0;
+  line-height: 1.8em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: normal;
+  border-bottom-width: 0;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.625rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+ul,
+ol,
+blockquote,
+pre {
+  color: #555555;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.8em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote,
+pre {
+  background-color: #f9f9f9;
+  border: 1px solid #bbbbbb;
+}
+
+ins {
+  text-decoration: none;
+  font-weight: bold;
+  color: #555555;
+}
+
+del {
+  color: #555555;
+}
+
+abbr,
+acronym {
+  cursor: help;
+}
+
+img {
+  vertical-align: middle;
+}
