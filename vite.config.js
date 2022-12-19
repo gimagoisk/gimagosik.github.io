@@ -3,6 +3,7 @@ import handlebars from "vite-plugin-handlebars";
 import { resolve } from "path";
 
 export default defineConfig({
+  base: "/gimagosik.github.io/",
   build: {
     outDir: "docs",
     rollupOptions: {
